@@ -20,7 +20,7 @@ function getUserInput() {
 
   var password = '';
   var includeLowercase = confirm('Click OK to include lowercase letters');
-  var includeUppercase = confirm('Click OK to include upppercase letters');
+  var includeUppercase = confirm('Click OK to include uppercase letters');
   var includeNumbers = confirm('Click OK to include numbers');
   var includeSpecialCharacters = confirm('Click OK to include special characters');
   var passwordLength = Number(prompt ('Please provide an amount between 8-128'));
