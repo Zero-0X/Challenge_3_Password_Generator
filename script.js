@@ -88,7 +88,7 @@ var specialCharacters = ['`', '~', '!', '@', '#', '$', '%', '^', '&', '*', '(', 
 
 }
 
-var password = generatePassword();
+// var password = generatePassword(); redundant call already prompted on Ln 6
 
 // WHEN all prompts are answered THEN a password is generated that matches the selected criteria
 
